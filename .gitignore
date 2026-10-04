@@ -1,0 +1,36 @@
+# Local environment and secrets
+.env
+.env.*
+
+# macOS metadata
+.DS_*
+._*
+.AppleDouble
+.LSOverride
+
+# Dependencies and virtual environments
+node_modules/
+.venv/
+venv/
+
+# Build output and local tooling
+dist/
+build/
+coverage/
+.vite/
+.vercel/
+.presentation-build/
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Logs and editor temporary files
+*.log
+*.swp
+*.swo
+*~
