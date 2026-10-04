@@ -4,6 +4,8 @@ A general transaction boundary for agents and swarms: inspect the full trajector
 
 The web app is in [`demo/`](demo/). It includes an inbox cleanup task and three source-backed cases from the real-world AI Village dataset.
 
+Live app: **https://swarm-transactions.vercel.app/**. The Vercel project is connected to this repository; pushes to `main` deploy to production automatically.
+
 ```sh
 cd demo
 npm ci
